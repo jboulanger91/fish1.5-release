@@ -53,7 +53,4 @@ To rebind, go to the Graph tab, click and hold over the Merge or Multicut field,
 - Usually, ~3 points per side suffice.
 - Click **Submit** to perform the cut—after reloading, each side appears in a different color.
 
-## Current limitations and known issues
-
-Proofreading is done via PyChunkedGraph in the main Neuroglancer branch (different from FlyWire). The Seung Lab is actively working to streamline and enhance features—expect changes. Please report any bugs.
 

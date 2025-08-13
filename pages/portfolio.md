@@ -6,4 +6,4 @@ feature-img: "assets/img/pexels/travel.jpeg"
 position: 2
 ---
 
-{% include portfolio.html %}
+### Click through for Neuroglancer views.
