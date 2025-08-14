@@ -4,7 +4,7 @@ layout: page
 
 ## A Functional Connectomics Resource for the Larval Zebrafish Brain
 
-![that](assets/img/fish15_banner.png)
+![ ](assets/img/fish15_banner.png)
 
 The [Lichtman](http://lichtmanlab.fas.harvard.edu), [Engert](http://www.engertlab.org) laboratories at Harvard University, the [Del Bene](https://www.institut-vision.org/index.php/en/researchers/filippo-del-bene) laboratory at the Institut de la Vision (Sorbonne Université), Paris and the [Bahl](https://www.neurobiology-konstanz.com/bahl) laboratory at Konstanz University, Germany are releasing the Fish1.5 dataset and its companion papers. 
 
@@ -21,6 +21,6 @@ We are grateful to [Zetta AI](https://zetta.ai/) for alignment, cell segmentatio
 - **[Gallery](https://jboulanger91.github.io/fish1.5-release/gallery/)** showcases various neuronal and glial populations in the dataset. 
 - **[Proofreading](https://jboulanger91.github.io/fish1.5-release/proofreading/)** using CAVE, or Connectome Annotation Versioning Engine
 - **[Tutorials](https://jboulanger91.github.io/fish1.5-release/tutorials/)** for programmatic access to the data and its reconstructed products  
-- Browsing the dataset requires a **Google account**. To request editing privileges for the Fish1.5 dataset, please fill out this **[form](https://forms.gle/oCB8kjXzkWYQEbYL8)**.  
+- Browsing the dataset requires a Google account. To request editing privileges for the Fish1.5 dataset, please fill out this **[form](https://forms.gle/oCB8kjXzkWYQEbYL8)**.  
 
 ---

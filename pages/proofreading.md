@@ -2,7 +2,6 @@
 layout: page
 title: Proofreading
 permalink: /proofreading/
-feature-img: "assets/img/pexels/travel.jpeg"
 position: 3
 ---
 
@@ -16,41 +15,54 @@ position: 3
 
 Proofreading is done in Neuroglancer, which you need to access through a special link:
 
-Currently, we support proofreading for two datasets:
+1. [The full dataset](https://spelunker.cave-explorer.org/#!middleauth+https://global.daf-apis.com/nglstate/api/v1/5361288778612736) This allows users to proofread the entire Fish1.5 volume. Make edits only when confident—they’ll improve segmentation. 
 
-1. [Test dataset](https://ngl.brain-wire.org)  
-   The test dataset is a previous version of agglomeration for the Fish1 and serves as a sandbox to test proofreading. You can play around without worrying about correctness.
+2. [Tutorials](https://github.com) on programmatic interaction with CAVE.
 
-2. [The full dataset](https://ngl.brain-wire.org)  
-   This allows users to proofread the entire Fish1 volume. Make edits only when confident—they’ll improve segmentation.
-
-3. [Tutorials](https://github.com) on programmatic interaction with CAVE.
-
-4. Proofreading [Video Tutorials](https://www.youtube.com) on YouTube.
+3. Proofreading [Video Tutorials](https://www.youtube.com) from Flywire on YouTube. 
 
 ## Making Proofreading Edits
 
 Here’s a detailed guide on editing within Neuroglancer:
 
-1. **Setting shortcuts for edit commands**  
-   Default shortcuts:
+1. **Merging two segments (Correct Split Errors)**  
+The link above has shortcuts for merge and cut operations already defined.
+You can merge multiple pairs of segments at once. A single bulk merge can merge up to 10 pairs of segments.
+   
+   1. Select the segments yo want to merge 
+   2. Press `M` to open the merge menu. This should appear in the bottom left of the screen. 
+   ![ ]({{ site.baseurl }}/assets/img/proofreading_merging_image1.png)
+   3. `Ctrl + Click` on segment 1 (2D or 3D) to draw a red line; then `Ctrl + Click` on segment 2. You will see the red line connecting the two segments. If done successfully, both segments will appear in the merge menu.
+   ![ ]({{ site.baseurl }}/assets/img/proofreading_merging_image2.png)
+   4. This process can be repeated up to 10 times before submitting the merge request.
+   ![ ]({{ site.baseurl }}/assets/img/proofreading_merging_image3.png)
+   5. Click **Submit** to merge selected segments; merged ones render in the same color.
+   ![ ]({{ site.baseurl }}/assets/img/proofreading_merging_image4.png)
+   6. If you have enabled auto-submit, the request will be sent automatically after selecting each segment pair.
+   7. You can click Clear to cancel all your selections or cancel a selection one by one using the Trash icon.
 
-To rebind, go to the Graph tab, click and hold over the Merge or Multicut field, then press your desired key—if successful, the letter updates.
-
-2. **Merging two segments (Correct Split Errors)**  
-- Select the segments to merge.
-- Press `M` to open the merge menu.
-- `Ctrl + Click` on segment 1 (2D or 3D) to draw a red line; then `Ctrl + Click` on segment 2. Both appear in the merge menu.
-- Repeat up to 10 times before submitting.
-- Click **Submit** to merge selected segments; merged ones render in the same color.
-- If **auto-submit** is enabled, submissions happen as you connect segments.
-- Use **Clear** to reset selections, or remove them individually with the **Trash** icon.
-
-3. **Cut a segment in two (Correcting Merge Errors)**  
-- In the Graph Tab (ensure you're not in the Seg. tab), press `C` to open the cutting menu.
-- In 3D view, place points around the split region on mesh 1 using `Shift + Ctrl + Click`.
+2. **Cut a segment in two (Correcting Merge Errors)**  
+   1. Go to the Graph Tab in the neuroglancer settings. In the above link, the merge feature is bound to the C key. Make sure you are in the Graph Tab and not (!) in the Seg. Tab.
+   2. Click C to open the cutting menu.
+   ![ ]({{ site.baseurl }}/assets/img/image3.png)
+   3. In the 3D view, place points around the region you want to split on mesh 1. To place points hold Shift + Control while you click on a mesh.
+   4. After you placed points on mesh 1, click Swap before you place points on mesh 2
+   5. After you place points on both sides of the desired cut, it should look similar to this
+   ![ ]({{ site.baseurl }}/assets/img/image4.png)
+   6. Click Submit to perform the cut. After a few seconds, you should see both sides of the cut in separate colors. After reloading neuroglancer, the meshes will update.
+-
 - Click **Swap**, then place points on mesh 2.
 - Usually, ~3 points per side suffice.
 - Click **Submit** to perform the cut—after reloading, each side appears in a different color.
+
+3. **Setting shortcuts for edit commands**  
+If you want to change those shortcuts, you can bind new keys. In the Graph tab, Click & hold the mouse over the Merge or Multicut field. Next, hit the key you want to bind to the operation. The letter next to the field will update if the new shortcut was set successfully.
+
+<div class="language-plaintext highlighter-rouge">
+  <div class="highlight">
+    <pre class="highlight"><code>Shift + A → Merge
+Shift + C → Cut</code></pre>
+  </div>
+</div>
 
 

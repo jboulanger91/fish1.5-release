@@ -4,7 +4,7 @@ url: "https://sylhare.github.io"
 
 # THEME-SPECIFIC CONFIGURATION
 title: Fish1.5 Release                                  # site's title
-description: "Website showcasing the FCLEM dataset from Boulanger-Weil et al., 2025"      # used by search engines
+description: "Website showcasing the FCLEM dataset from Boulanger-Weill et al., 2025"      # used by search engines
 avatar:                         # Empty for no avatar in navbar
 favicon:                             # Icon displayed in the tab
 
