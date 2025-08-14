@@ -4,21 +4,23 @@ layout: page
 
 ## A Functional Connectomics Resource for the Larval Zebrafish Brain
 
-The [Lichtman](http://lichtmanlab.fas.harvard.edu), [Engert](http://www.engertlab.org) laboratories at Harvard University, the [Del Bene](https://www.institut-vision.org/index.php/en/researchers/filippo-del-bene) laboratory at the Institut de la Vision (Sorbonne Université), Paris and the [Bahl](https://www.neurobiology-konstanz.com/bahl) laboratory at Konstanz University, Germany are releasing the Fish1.5 dataset and its companion paper. 
+![that](assets/img/fish15_banner.png)
 
-**Fish1.5 is a 7-day post-fertilization larval zebrafish dataset**, combining electron microscopy (EM) and two-photon calcium imaging from the same specimen. Both modalities are registered at single cell resolution. The imaged region spans from the medial optic tectum to rhombomere 3. To generate this dataset, we used a transgenic larvae expressing a nuclear calcium indicator under the elavl3 pan-neuronal promoter, along with red fluorescent markers labeling the main inhibitory neuronal subtype and vascular endothelial cells: *Tg(elavl3:H2B-GCaMP7f, gad1b:DsRed, kdrl:mCherryCAAX)*
+The [Lichtman](http://lichtmanlab.fas.harvard.edu), [Engert](http://www.engertlab.org) laboratories at Harvard University, the [Del Bene](https://www.institut-vision.org/index.php/en/researchers/filippo-del-bene) laboratory at the Institut de la Vision (Sorbonne Université), Paris and the [Bahl](https://www.neurobiology-konstanz.com/bahl) laboratory at Konstanz University, Germany are releasing the Fish1.5 dataset and its companion papers. 
 
-The resulting EM dataset, acquired at a resolution of **4 nm × 4 nm × 30 nm**, provides ultrastructural details such as synaptic connections and subcellular features. This volume includes **62745 cell bodies** out of which **15017** were functionally imaged using 4 stimuli : left- and rightward-moving dots of 100% coherence and sine gratings in six optical planes spaced by 12 μm along the dorso-ventral axis. 
+**Fish1.5 is a 7-day post-fertilization larval zebrafish dataset**, combining electron microscopy (EM) and two-photon calcium imaging from the same specimen. Both modalities are registered at single cell resolution. The imaged region spans from the **medial optic tectum to rhombomere 3**. To generate this dataset, we used a transgenic larvae expressing a nuclear calcium indicator under the elavl3 pan-neuronal promoter, along with red fluorescent markers labeling the main inhibitory neuronal subtype and vascular endothelial cells: *Tg(elavl3:H2B-GCaMP7f, gad1b:DsRed, kdrl:mCherryCAAX)*
+
+The resulting EM dataset, acquired at a resolution of **4 nm × 4 nm × 30 nm**, provides ultrastructural details such as synaptic connections and subcellular features. This volume includes **62745 cell bodies** out of which **15017** were functionally imaged using **4 stimuli : left- and rightward-moving dots of 100% coherence and sine gratings** in six optical planes spaced by 12 μm along the dorso-ventral axis. 
 
 The dataset is editable through a collaborative proofreading tool, **CAVE**, allowing the community to reconstruct neurons of interest, analyze their connectivity, and overlay neurotransmitter and functional information to test their circuit models.
 
 We are grateful to [Zetta AI](https://zetta.ai/) for alignment, cell segmentation, synapse detection & assignment, and hosting CAVE. 
 
 ### Explore More:
-- **[Manuscripts](http://lichtmanlab.fas.harvard.edu)** highlight recent publications that leverage or complement the Fish1.5 dataset. 
-- **[Gallery](http://lichtmanlab.fas.harvard.edu)** showcases various neuronal and glial populations in the dataset. 
-- **[Tutorials](http://lichtmanlab.fas.harvard.edu)** for programmatic access to the data and its reconstructed products  
-- Browsing the dataset requires a **Google account**. To request editing privileges for the Fish1 dataset, please fill out this **[form](https://forms.gle/oCB8kjXzkWYQEbYL8)**.  
-- **[Proofreading](http://lichtmanlab.fas.harvard.edu)** using CAVE, or Connectome Annotation Versioning Engine
+- **[Manuscripts](https://jboulanger91.github.io/fish1.5-release/manuscripts/)** highlight recent publications that leverage or complement the Fish1.5 dataset. 
+- **[Gallery](https://jboulanger91.github.io/fish1.5-release/gallery/)** showcases various neuronal and glial populations in the dataset. 
+- **[Proofreading](https://jboulanger91.github.io/fish1.5-release/proofreading/)** using CAVE, or Connectome Annotation Versioning Engine
+- **[Tutorials](https://jboulanger91.github.io/fish1.5-release/tutorials/)** for programmatic access to the data and its reconstructed products  
+- Browsing the dataset requires a **Google account**. To request editing privileges for the Fish1.5 dataset, please fill out this **[form](https://forms.gle/oCB8kjXzkWYQEbYL8)**.  
 
 ---

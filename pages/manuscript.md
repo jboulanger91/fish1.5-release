@@ -2,7 +2,6 @@
 layout: page
 title: Manuscripts
 permalink: /manuscripts/
-feature-img: "assets/img/pexels/travel.jpeg"
 position: 1
 ---
 
