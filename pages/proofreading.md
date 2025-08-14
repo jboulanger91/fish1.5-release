@@ -50,10 +50,6 @@ You can merge multiple pairs of segments at once. A single bulk merge can merge 
    5. After you place points on both sides of the desired cut, it should look similar to this
    ![ ]({{ site.baseurl }}/assets/img/image4.png)
    6. Click Submit to perform the cut. After a few seconds, you should see both sides of the cut in separate colors. After reloading neuroglancer, the meshes will update.
--
-- Click **Swap**, then place points on mesh 2.
-- Usually, ~3 points per side suffice.
-- Click **Submit** to perform the cut—after reloading, each side appears in a different color.
 
 3. **Setting shortcuts for edit commands**  
 If you want to change those shortcuts, you can bind new keys. In the Graph tab, Click & hold the mouse over the Merge or Multicut field. Next, hit the key you want to bind to the operation. The letter next to the field will update if the new shortcut was set successfully.
