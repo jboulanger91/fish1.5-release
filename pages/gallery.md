@@ -81,7 +81,7 @@ position: 2
   <a class="card" href="https://spelunker.cave-explorer.org/#!middleauth+https://global.daf-apis.com/nglstate/api/v1/6668149414952960" target="_blank">
     <img src="{{ 'assets/img/rgcs.png' | relative_url }}" alt="Raphe neurons">
     <div class="card-body">
-      <div class="card-title">Retinal ganglion cells projection to the Optic tectum</div>
+      <div class="card-title">Retinal ganglion cells projecting to the Optic tectum</div>
       <div class="card-text">From Putti et al., 2025 - Reconstructed by Jay Savaliya @ U. Regina</div>
     </div>
   </a>
