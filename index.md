@@ -12,7 +12,7 @@ The [Lichtman](http://lichtmanlab.fas.harvard.edu), [Engert](http://www.engertla
 
 The resulting EM dataset, acquired at a resolution of **4 × 4 × 30 nm**, provides ultrastructural details such as synaptic connections and subcellular features. This volume includes **62745 cell bodies** out of which **15017** were functionally imaged using **4 stimuli : left- and rightward-moving dots of 100% coherence and sine gratings** in six optical planes spaced by 12 μm along the dorso-ventral axis. 
 
-The dataset is editable through a collaborative proofreading tool, **CAVE** (Connectome Annotation Versioning Engine), allowing the community to reconstruct neurons of interest, analyze their connectivity, overlay neurotransmitter and functional information to test circuit models. To request **editing privileges** for the Fish1.5 dataset, please fill out this **[form](https://forms.gle/oCB8kjXzkWYQEbYL8)**. Browsing and editing the dataset requires a Google account and works best in Chrome and Firefox. 
+The dataset is editable through a collaborative proofreading tool, **CAVE** from [Dorkenwald et al., 2025](https://doi.org/10.1038/s41592-024-02426-z), allowing the community to reconstruct neurons of interest, analyze their connectivity, overlay neurotransmitter and functional information to test circuit models. To request **editing privileges** for the Fish1.5 dataset, please fill out this **[form](https://forms.gle/oCB8kjXzkWYQEbYL8)**. Browsing and editing the dataset requires a Google account and works best in Chrome and Firefox. 
 
 We are grateful to [Zetta AI](https://zetta.ai/) for alignment, cell segmentation, synapse detection & assignment, and hosting CAVE. 
 

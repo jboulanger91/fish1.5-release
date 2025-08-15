@@ -15,26 +15,23 @@ Navigation and proofreading are done in Neuroglancer (most recent Spelunker bran
 
 ## Navigation
 
-1. Basic instructions can be found in the MICrONS Explorer website [here](https://www.microns-explorer.org/ngl-instructions) and [here](https://tutorial.microns-explorer.org/neuroglancer-basic.html). 
+1. Basic instructions can be found in the MICrONS Explorer website [here](https://www.microns-explorer.org/ngl-instructions), [here](https://tutorial.microns-explorer.org/neuroglancer-basic.html) and in this Eyewire [video](https://youtu.be/tnoIdea7Wmo?si=kd1xA3QVotrLYnTd)
 2. The dataset contains multiple layers that can be toggled on and off by clicking on the tab or using the corresponding number key. 
 ![ ]({{ site.baseurl }}/assets/img/layers.jpg)
 Rendering options for each layer can be modified by right clicking on the layer tab. This will open a panel to the right of the screen. 
-- `img` corresponds to the EM images  
-- `em_downsampled` corresponds to the EM images downsampled at 512 × 512 × 480 nm for faster browsing. This layer also helps when overlaying the two-photon imaging stacks (see below). 
-- `seg` corresponds to the EM segmentation     
-- `elavl3:H2B-GCaMP7f` is a registered two-photon imaging stack of the nuclear calcium indicator GCaMP7f under the elavl3 promoter.  
-- `gad1b:DsRed, kdrl:mCherryCAAX` is a registered two-photon imaging stack of red fluorescent reporters that label the main inhibitory neuronal subtype (gad1b:DsRed) and vascular endothelial cells (kdrl:mCherryCAAX). 
-- `functional masks` Functional masks are spatial masks registered from the two-photon functional imaging planes. Each mask corresponds to a unique neuronal ID, which can be used to retrieve activity data via custom Jupyter Notebooks (see the Tutorials page) (see the [Tutorials](https://jboulanger91.github.io/fish1.5-release/tutorials/)) page. Mask IDs can be accessed by clicking on a mask and checking the Seg. tab in the right panel, or simply by hovering over a mask — the ID will appear directly in the functional masks layer tab. In the link above the neuron with ID 9978 is displayed. 
-- `ot hb region outlines` are outlines of the main regions in this dataset: opti tectum (periventricular zone and neuropil) and hindbrain. 
-- `synapses` describes how to render imagery. 
-- `ann` is a manual annotation layer, allowing the user to add annotations to the data (`Ctrl + Click`, either in the 2D or 3D panel). You need to right click on the layers tab to add annotations. 
+- `1. img` corresponds to the EM images  
+- `2. em_downsampled` corresponds to the EM images downsampled at 512 × 512 × 480 nm for faster browsing. This layer also helps when overlaying the two-photon imaging stacks (see below). 
+- `3. seg` corresponds to the EM segmentation     
+- `4. elavl3:H2B-GCaMP7f` is a registered two-photon imaging stack of the nuclear calcium indicator GCaMP7f under the elavl3 promoter.  
+- `5. gad1b:DsRed, kdrl:mCherryCAAX` is a registered two-photon imaging stack of red fluorescent reporters that label the main inhibitory neuronal subtype (gad1b:DsRed) and vascular endothelial cells (kdrl:mCherryCAAX). 
+- `6. functional masks` Functional masks are spatial masks registered from the two-photon functional imaging planes. Each mask corresponds to a unique neuronal ID, which can be used to retrieve activity data via custom Jupyter Notebooks (see the [Tutorials](https://jboulanger91.github.io/fish1.5-release/tutorials/) page). Mask IDs can be accessed by clicking on a mask and checking the Seg. tab in the right panel, or simply by hovering over a mask — the ID will appear directly in the functional masks layer tab. In the link above the neuron with ID 9978 is displayed. 
+- `7. ot hb region outlines` are outlines of the main regions in this dataset: opti tectum (periventricular zone and neuropil) and hindbrain. 
+- `8. synapses` describes how to render imagery. 
+- `9. ann` is a manual annotation layer, allowing the user to add annotations to the data (`Ctrl + Click`, either in the 2D or 3D panel). You need to right click on the layers tab to add annotations. 
 
 ## Making Proofreading Edits
 
-Proofreading in the Fish1.5 dataset is done in the same navigation link as above. Make edits only when confident—they’ll improve segmentation, you are contributing to a commuunity effort. Excellent proofreading video tutorials from Flywire are available on YouTube and are applicable to this dataset.  
-   1. 
-
-To get started here’s a quick guide on editing within Neuroglancer:
+Proofreading in the Fish1.5 dataset is done in the same navigation link as above. Make edits only when confident—they’ll improve segmentation, you are contributing to a commuunity effort. To get started here’s a quick guide on editing within Neuroglancer:
 
 1. **Merging two segments (Correct Split Errors)**  
 The link above has shortcuts for merge and cut operations already defined.
@@ -58,7 +55,7 @@ You can merge multiple pairs of segments at once. A single bulk merge can merge 
    ![ ]({{ site.baseurl }}/assets/img/image3.png)
    3. In the 3D view, place points around the region you want to split on mesh 1. To place points hold Shift + Control while you click on a mesh.
    4. After you placed points on mesh 1, click Swap before you place points on mesh 2
-   5. After you place points on both sides of the desired cut, it should look similar to this
+   5. After you place points on both sides of the desired cut, it should look similar to this: 
    ![ ]({{ site.baseurl }}/assets/img/image4.png)
    6. Click Submit to perform the cut. After a few seconds, you should see both sides of the cut in separate colors. After reloading neuroglancer, the meshes will update.
 

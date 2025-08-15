@@ -2,7 +2,6 @@
 layout: page
 title: Tutorials
 permalink: /tutorials/
-feature-img: "assets/img/pexels/travel.jpeg"
 position: 4
 ---
 
@@ -10,7 +9,7 @@ position: 4
 
 ## Interacting with the dataset 
 
-This page covers scripts for programmatic access to the Fish1 dataset hosted by [CAVE](https://www.ncbi.nlm.nih.gov) (Connectome Annotation and Versioning Engine).  
+This page covers scripts for programmatic access to the Fish1.5 dataset hosted by [CAVE](https://www.ncbi.nlm.nih.gov) (Connectome Annotation and Versioning Engine).  
 
 ## Setup CAVE
 - Install the [CAVE client](https://github.com).
@@ -24,4 +23,3 @@ This page covers scripts for programmatic access to the Fish1 dataset hosted by 
 - [Query](https://nbviewer.org) data from the materialized annotation table.
 - Explore and analyze [synapses](https://nbviewer.org) by querying pre-synaptic or post-synaptic cells.
 
----
