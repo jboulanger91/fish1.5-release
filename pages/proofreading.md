@@ -2,7 +2,7 @@
 layout: page
 title: Navigation and Proofreading
 permalink: /navigation-proofreading/
-position: 3
+position: 2
 ---
 
 Navigation and proofreading are done in Neuroglancer (most recent Spelunker branch). The dataset is accessible [here](https://spelunker.cave-explorer.org/#!middleauth+https://global.daf-apis.com/nglstate/api/v1/5397500134424576). 

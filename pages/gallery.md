@@ -2,10 +2,10 @@
 layout: page
 title : Exploring the Dataset 
 permalink: /gallery/
-position: 2
+position: 3
 ---
 
-### Click through for Neuroglancer views.
+#### Click through for Neuroglancer views.
 
 <style>
 .gallery {
