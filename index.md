@@ -4,7 +4,13 @@ layout: page
 
 ## A Functional Connectomics Ressource for the Larval Zebrafish Brain
 
-![ ](assets/img/fish15_banner.png)
+<div style="overflow: hidden;">
+  <img src="{{ '/assets/img/fish15_banner.png' | relative_url }}"
+       alt="Fish1.5 banner"
+       style="width: 110%; max-width: 3000px; display: block; position: relative; left: -5%;">
+</div>
+
+<hr style="max-width: 1000px; margin: 1rem auto; border: none; border-top: 2px solid white;">
 
 The [Lichtman](http://lichtmanlab.fas.harvard.edu), [Engert](http://www.engertlab.org) laboratories at Harvard University, the [Del Bene](https://www.institut-vision.org/index.php/en/researchers/filippo-del-bene) laboratory at the Institut de la Vision (Sorbonne Université), Paris and the [Bahl](https://www.neurobiology-konstanz.com/bahl) laboratory at Konstanz University, Germany are releasing the Fish1.5 dataset and its companion papers. 
 
@@ -20,5 +26,7 @@ We are grateful to [Zetta AI](https://zetta.ai/) for alignment, cell segmentatio
 - **[Manuscripts](https://jboulanger91.github.io/fish1.5-release/manuscripts/)** highlight recent publications that leverage or complement the Fish1.5 dataset. 
 - **[Gallery](https://jboulanger91.github.io/fish1.5-release/gallery/)** showcases various neuronal and glial populations in the dataset. 
 - **[Navigation and Proofreading](http://127.0.0.1:4000/fish1.5-release/navigation-proofreading/)** using CAVE. 
-- **[Tutorials](https://jboulanger91.github.io/fish1.5-release/tutorials/)** for interacting with the dataset and get programmatic access to reconstructed neurons, synaptic connectivity and functional responses.  
+- **[Tutorials](https://jboulanger91.github.io/fish1.5-release/tutorials/)** For programmatic access to reconstructed neuron morphologies, synaptic connectivity, and functional activity data.
+
+**Contact:** [boulangerweill@fas.harvard.edu](boulangerweill@fas.harvard.edu)
 
