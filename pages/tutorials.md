@@ -5,29 +5,21 @@ permalink: /tutorials/
 position: 4
 ---
 
-# Tutorials
-
 ## Interacting with the dataset 
 
-This page covers scripts for programmatic access to the Fish1.5 dataset hosted by [CAVE](https://www.ncbi.nlm.nih.gov) (Connectome Annotation and Versioning Engine).  
+This page covers scripts for programmatic access to the Fish1.5 dataset using [CAVE](https://www.caveconnecto.me/CAVEclient/) (Connectome Annotation and Versioning Engine).  
 
 ## Setup CAVE
-- Install the [CAVE client](https://github.com).
-- [Set up](https://nbviewer.org) CAVE client credentials on your local machine.
+- To install CAVEclient use pip `pip install caveclient`.
+- TO BE ADDED SOON : Once you have installed the CAVEclient, to use it you need to set up your user token in one of two ways
 
-## Download cellular morphologies 
+## Download cellular morphologies and connectivity 
 
-## Retrieve neuronal connectivity  
+- Morphology: This [page](https://tutorial.microns-explorer.org/quickstart_notebooks/06-cloudvolume-download-mesh.html) from the [MICrONs](https://tutorial.microns-explorer.org/) project explain how to retrieve meshes for segmented objects.  
+- Connectivity: This [page](https://tutorial.microns-explorer.org/quickstart_notebooks/04-cave-query-synapses.html) from the same source explain how to retrieve input and output synapses for segmented objects
 
 ## Retrieve neuronal activity 
 
-
-
-## Upload your Annotation Table
-- Choose a data [schema](https://global.brain-wire-test.org) and [create](https://nbviewer.org) an annotation table.
-- [Upload](https://nbviewer.org) your custom annotations to the table.
-
-## Query the dataset
-- [Query](https://nbviewer.org) data from the materialized annotation table.
-- Explore and analyze [synapses](https://nbviewer.org) by querying pre-synaptic or post-synaptic cells.
-
+- This part doesn't require to setup CAVE. 
+- The dataset containing Fish1.5 activity has been deposited to Zenodo [here](https://doi.org/10.5281/zenodo.16893093). 
+- Use this [notebook](https://github.com/jboulanger91/fish1.5-notebooks/blob/main/notebooks/functional_responses.ipynb) to display functional responses to random dots and sine gratings. 
