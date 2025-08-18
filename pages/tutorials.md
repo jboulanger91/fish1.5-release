@@ -15,6 +15,14 @@ This page covers scripts for programmatic access to the Fish1.5 dataset hosted b
 - Install the [CAVE client](https://github.com).
 - [Set up](https://nbviewer.org) CAVE client credentials on your local machine.
 
+## Download cellular morphologies 
+
+## Retrieve neuronal connectivity  
+
+## Retrieve neuronal activity 
+
+
+
 ## Upload your Annotation Table
 - Choose a data [schema](https://global.brain-wire-test.org) and [create](https://nbviewer.org) an annotation table.
 - [Upload](https://nbviewer.org) your custom annotations to the table.

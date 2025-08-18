@@ -1,8 +1,11 @@
 ---
 layout: page
+title: A Functional Connectomics Ressource for the Larval Zebrafish Brain
+nav_title: Home
+permalink: /
 ---
 
-## A Functional Connectomics Ressource for the Larval Zebrafish Brain
+<hr style="max-width: 1000px; margin: 1rem auto; border: none; border-top: 2px solid white;">
 
 <div style="overflow: hidden;">
   <img src="{{ '/assets/img/fish15_banner.png' | relative_url }}"
@@ -11,8 +14,9 @@ layout: page
 </div>
 
 <hr style="max-width: 1000px; margin: 1rem auto; border: none; border-top: 2px solid white;">
+<hr style="max-width: 1000px; margin: 1rem auto; border: none; border-top: 2px solid white;">
 
-The [Lichtman](http://lichtmanlab.fas.harvard.edu), [Engert](http://www.engertlab.org) laboratories at Harvard University, the [Del Bene](https://www.institut-vision.org/index.php/en/researchers/filippo-del-bene) laboratory at the Institut de la Vision (Sorbonne Université), Paris and the [Bahl](https://www.neurobiology-konstanz.com/bahl) laboratory at Konstanz University, Germany are releasing the Fish1.5 dataset and its companion papers. 
+The [Lichtman](http://lichtmanlab.fas.harvard.edu), [Engert](http://www.engertlab.org) laboratories at Harvard University, the [Del Bene](https://www.institut-vision.org/index.php/en/researchers/filippo-del-bene) laboratory at the Institut de la Vision (Sorbonne Université), Paris and the [Bahl](https://www.neurobiology-konstanz.com/bahl) laboratory at Konstanz University, Germany are releasing the Fish1.5 dataset and its companion [papers](https://jboulanger91.github.io/fish1.5-release/manuscripts/). 
 
 **Fish1.5 is a 7-day post-fertilization larval zebrafish dataset**, combining electron microscopy (EM) and two-photon calcium imaging from the same specimen. Both modalities are registered at single cell resolution. The imaged region spans from the **medial optic tectum to rhombomere 3**. To generate this dataset, we used a transgenic larvae expressing a nuclear calcium indicator under the elavl3 pan-neuronal promoter, along with red fluorescent markers labeling the main inhibitory neuronal subtype and vascular endothelial cells: *Tg(elavl3:H2B-GCaMP7f, gad1b:DsRed, kdrl:mCherryCAAX)*
 
