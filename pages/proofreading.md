@@ -17,7 +17,15 @@ Navigation and proofreading are done in Neuroglancer (most recent Spelunker bran
 
 1. Basic instructions can be found in the MICrONS Explorer website [here](https://www.microns-explorer.org/ngl-instructions), [here](https://tutorial.microns-explorer.org/neuroglancer-basic.html) and in this Eyewire [video](https://youtu.be/tnoIdea7Wmo?si=kd1xA3QVotrLYnTd)
 2. The dataset contains multiple layers that can be toggled on and off by clicking on the tab or using the corresponding number key. 
-![ ]({{ site.baseurl }}/assets/img/layers.jpg)
+
+<div style="overflow: hidden;">
+  <img src="{{ '/assets/img/layers.jpg' | relative_url }}"
+       alt="Fish1.5 banner"
+       style="width: 118%; max-width: 3000px; display: block; position: relative; left: -9%;">
+</div>
+
+<hr style="max-width: 1000px; margin: 0.5rem auto; border: none; border-top: 2px solid white;">
+
 Rendering options for each layer can be modified by right clicking on the layer tab. This will open a panel to the right of the screen. 
 - `1. img` corresponds to the EM images  
 - `2. em_downsampled` corresponds to the EM images downsampled at 512 × 512 × 480 nm for faster browsing. This layer also helps when overlaying the two-photon imaging stacks (see below). 

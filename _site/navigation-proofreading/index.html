@@ -36,22 +36,27 @@
 
 <ol>
   <li>Basic instructions can be found in the MICrONS Explorer website <a href="https://www.microns-explorer.org/ngl-instructions">here</a>, <a href="https://tutorial.microns-explorer.org/neuroglancer-basic.html">here</a> and in this Eyewire <a href="https://youtu.be/tnoIdea7Wmo?si=kd1xA3QVotrLYnTd">video</a></li>
-  <li>The dataset contains multiple layers that can be toggled on and off by clicking on the tab or using the corresponding number key. 
-<img src="/fish1.5-release/assets/img/layers.jpg" alt=" " />
-Rendering options for each layer can be modified by right clicking on the layer tab. This will open a panel to the right of the screen.
-    <ul>
-      <li><code class="language-plaintext highlighter-rouge">1. img</code> corresponds to the EM images</li>
-      <li><code class="language-plaintext highlighter-rouge">2. em_downsampled</code> corresponds to the EM images downsampled at 512 × 512 × 480 nm for faster browsing. This layer also helps when overlaying the two-photon imaging stacks (see below).</li>
-      <li><code class="language-plaintext highlighter-rouge">3. seg</code> corresponds to the EM segmentation</li>
-      <li><code class="language-plaintext highlighter-rouge">4. elavl3:H2B-GCaMP7f</code> is a registered two-photon imaging stack of the nuclear calcium indicator GCaMP7f under the elavl3 promoter.</li>
-      <li><code class="language-plaintext highlighter-rouge">5. gad1b:DsRed, kdrl:mCherryCAAX</code> is a registered two-photon imaging stack of red fluorescent reporters that label the main inhibitory neuronal subtype (gad1b:DsRed) and vascular endothelial cells (kdrl:mCherryCAAX).</li>
-      <li><code class="language-plaintext highlighter-rouge">6. functional masks</code> Functional masks are spatial masks registered from the two-photon functional imaging planes. Each mask corresponds to a unique neuronal ID, which can be used to retrieve activity data via custom Jupyter Notebooks (see the <a href="https://jboulanger91.github.io/fish1.5-release/tutorials/">Tutorials</a> page). Mask IDs can be accessed by clicking on a mask and checking the Seg. tab in the right panel, or simply by hovering over a mask — the ID will appear directly in the functional masks layer tab. In the link above the neuron with ID 9978 is displayed.</li>
-      <li><code class="language-plaintext highlighter-rouge">7. ot hb region outlines</code> are outlines of the main regions in this dataset: opti tectum (periventricular zone and neuropil) and hindbrain.</li>
-      <li><code class="language-plaintext highlighter-rouge">8. synapses</code> describes how to render imagery.</li>
-      <li><code class="language-plaintext highlighter-rouge">9. ann</code> is a manual annotation layer, allowing the user to add annotations to the data (<code class="language-plaintext highlighter-rouge">Ctrl + Click</code>, either in the 2D or 3D panel). You need to right click on the layers tab to add annotations.</li>
-    </ul>
-  </li>
+  <li>The dataset contains multiple layers that can be toggled on and off by clicking on the tab or using the corresponding number key.</li>
 </ol>
+
+<div style="overflow: hidden;">
+  <img src="/fish1.5-release/assets/img/layers.jpg" alt="Fish1.5 banner" style="width: 118%; max-width: 3000px; display: block; position: relative; left: -9%;" />
+</div>
+
+<hr style="max-width: 1000px; margin: 0.5rem auto; border: none; border-top: 2px solid white;" />
+
+<p>Rendering options for each layer can be modified by right clicking on the layer tab. This will open a panel to the right of the screen.</p>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">1. img</code> corresponds to the EM images</li>
+  <li><code class="language-plaintext highlighter-rouge">2. em_downsampled</code> corresponds to the EM images downsampled at 512 × 512 × 480 nm for faster browsing. This layer also helps when overlaying the two-photon imaging stacks (see below).</li>
+  <li><code class="language-plaintext highlighter-rouge">3. seg</code> corresponds to the EM segmentation</li>
+  <li><code class="language-plaintext highlighter-rouge">4. elavl3:H2B-GCaMP7f</code> is a registered two-photon imaging stack of the nuclear calcium indicator GCaMP7f under the elavl3 promoter.</li>
+  <li><code class="language-plaintext highlighter-rouge">5. gad1b:DsRed, kdrl:mCherryCAAX</code> is a registered two-photon imaging stack of red fluorescent reporters that label the main inhibitory neuronal subtype (gad1b:DsRed) and vascular endothelial cells (kdrl:mCherryCAAX).</li>
+  <li><code class="language-plaintext highlighter-rouge">6. functional masks</code> Functional masks are spatial masks registered from the two-photon functional imaging planes. Each mask corresponds to a unique neuronal ID, which can be used to retrieve activity data via custom Jupyter Notebooks (see the <a href="https://jboulanger91.github.io/fish1.5-release/tutorials/">Tutorials</a> page). Mask IDs can be accessed by clicking on a mask and checking the Seg. tab in the right panel, or simply by hovering over a mask — the ID will appear directly in the functional masks layer tab. In the link above the neuron with ID 9978 is displayed.</li>
+  <li><code class="language-plaintext highlighter-rouge">7. ot hb region outlines</code> are outlines of the main regions in this dataset: opti tectum (periventricular zone and neuropil) and hindbrain.</li>
+  <li><code class="language-plaintext highlighter-rouge">8. synapses</code> describes how to render imagery.</li>
+  <li><code class="language-plaintext highlighter-rouge">9. ann</code> is a manual annotation layer, allowing the user to add annotations to the data (<code class="language-plaintext highlighter-rouge">Ctrl + Click</code>, either in the 2D or 3D panel). You need to right click on the layers tab to add annotations.</li>
+</ul>
 
 <h2 id="making-proofreading-edits">Making Proofreading Edits</h2>
 

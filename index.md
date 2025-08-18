@@ -5,10 +5,8 @@ nav_title: Home
 permalink: /
 ---
 
-<hr style="max-width: 1000px; margin: 1rem auto; border: none; border-top: 2px solid white;">
-
-<div style="overflow: hidden;">
-  <img src="{{ '/assets/img/fish15_banner.png' | relative_url }}"
+<div style="overflow: hidden; margin-top: -2rem;">
+  <img src="{{ '/assets/img/home_img.png' | relative_url }}"
        alt="Fish1.5 banner"
        style="width: 110%; max-width: 3000px; display: block; position: relative; left: -5%;">
 </div>
@@ -30,7 +28,7 @@ We are grateful to [Zetta AI](https://zetta.ai/) for alignment, cell segmentatio
 - **[Manuscripts](https://jboulanger91.github.io/fish1.5-release/manuscripts/)** highlight recent publications that leverage or complement the Fish1.5 dataset. 
 - **[Gallery](https://jboulanger91.github.io/fish1.5-release/gallery/)** showcases various neuronal and glial populations in the dataset. 
 - **[Navigation and Proofreading](http://127.0.0.1:4000/fish1.5-release/navigation-proofreading/)** using CAVE. 
-- **[Tutorials](https://jboulanger91.github.io/fish1.5-release/tutorials/)** For programmatic access to reconstructed neuron morphologies, synaptic connectivity, and functional activity data.
+- **[Tutorials](https://jboulanger91.github.io/fish1.5-release/tutorials/)** For programmatic access to reconstructed cellular morphologies, synaptic connectivity, and functional activity data.
 
-**Contact:** [boulangerweill@fas.harvard.edu](boulangerweill@fas.harvard.edu)
+**Contact:** [boulangerweill@fas.harvard.edu](mailto:boulangerweill@fas.harvard.edu)
 

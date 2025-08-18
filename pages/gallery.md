@@ -6,50 +6,66 @@ position: 3
 ---
 
 #### Click through for Neuroglancer views.
-
 <style>
 .gallery {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);  /* Exactly 2 columns */
+  grid-template-columns: repeat(2, 1fr); /* Exactly 2 columns on desktop */
   gap: 2rem;
   margin-top: 2rem;
   justify-items: center;
+  padding: 2rem 1rem;
+  background-color: #f9f9f9; /* subtle background */
+  border-radius: 12px;
 }
 
 .card {
-  max-width: 600px;
-  border-radius: 8px;
+  max-width: 550px;
+  border-radius: 10px;
   overflow: hidden;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
   background-color: white;
-  transition: transform 0.2s ease;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
   text-align: center;
   text-decoration: none;
 }
 
 .card:hover {
-  transform: translateY(-4px);
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
 .card img {
   width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
   display: block;
 }
 
 .card-body {
-  padding: 1rem;
+  padding: 1.2rem 1rem;
 }
 
 .card-title {
-  font-weight: bold;
-  font-size: 1.1rem;
-  margin-bottom: 0.25rem;
-  color: #222;
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: #111;
 }
 
 .card-text {
   font-size: 0.95rem;
-  color: #666;
+  color: #555;
+  line-height: 1.4;
+}
+
+/* Optional: Responsive layout for smaller screens */
+@media (max-width: 768px) {
+  .gallery {
+    grid-template-columns: 1fr;
+  }
 }
 </style>
 
