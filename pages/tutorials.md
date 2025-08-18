@@ -17,6 +17,7 @@ This page covers scripts for programmatic access to the Fish1.5 dataset using [C
 
 - Morphology: This [page](https://tutorial.microns-explorer.org/quickstart_notebooks/06-cloudvolume-download-mesh.html) from the [MICrONs](https://tutorial.microns-explorer.org/) project explain how to retrieve meshes for segmented objects.  
 - Connectivity: This [page](https://tutorial.microns-explorer.org/quickstart_notebooks/04-cave-query-synapses.html) from the same source explain how to retrieve input and output synapses for segmented objects
+- TO BE ADDED SOON : A Notebook showcasing these different aspects 
 
 ## Retrieve neuronal activity 
 
