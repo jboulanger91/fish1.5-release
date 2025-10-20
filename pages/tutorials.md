@@ -11,13 +11,10 @@ This page covers scripts for programmatic access to the Fish1.5 dataset using [C
 
 ## Setup CAVE
 - To install CAVEclient use pip `pip install caveclient`.
-- Once you have installed the CAVEclient, to use it you need to set up your user token in one of two ways
+- Once you have installed the CAVEclient, to use it you need to set up your user token using the following [notebook](https://nbviewer.org/url/rawcdn.githack.com/jboulanger91/fish1.5-notebooks/main/notebooks/functional_responses.ipynb) 
 
 ## Download cellular morphologies and connectivity 
-
-- Morphology: This [page](https://tutorial.microns-explorer.org/quickstart_notebooks/06-cloudvolume-download-mesh.html) from the [MICrONs](https://tutorial.microns-explorer.org/) project explains how to retrieve meshes for segmented objects.  
-- Connectivity: This [page](https://tutorial.microns-explorer.org/quickstart_notebooks/04-cave-query-synapses.html) from the same source explains how to retrieve input and output synapses for segmented objects
-- A Notebook showcasing these different aspects 
+- Morphology and Connectivity: This [page](https://nbviewer.org/url/rawcdn.githack.com/jboulanger91/fish1.5-notebooks/main/notebooks/download_mesh_and_synapses.ipynb) explains how to retrieve morphology, input and output synapses for segmented objects
 
 ## Retrieve neuronal activity 
 
