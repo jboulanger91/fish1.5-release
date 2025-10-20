@@ -23,4 +23,4 @@ This page covers scripts for programmatic access to the Fish1.5 dataset using [C
 
 - This part doesn't require to setup CAVE. 
 - The dataset containing Fish1.5 activity has been deposited to Zenodo [here](https://doi.org/10.5281/zenodo.16893093). 
-- Use this [notebook](https://github.com/jboulanger91/fish1.5-notebooks/blob/main/notebooks/functional_responses.ipynb) to display functional responses to random dots and sine gratings. 
+- Use this [notebook](https://nbviewer.org/url/rawcdn.githack.com/jboulanger91/fish1.5-notebooks/main/notebooks/functional_responses.ipynb) to display functional responses to random dots and sine gratings. 
