@@ -56,5 +56,5 @@ conda activate fish-env
 
 All necessary dependencies are included in the `environment.yml` file.
 
-GitHub repository: [https://github.com/jboulanger91/fish1.5-notebooks]https://github.com/jboulanger91/fish1.5-notebooks
+GitHub repository: [https://github.com/jboulanger91/fish1.5-notebooks](https://github.com/jboulanger91/fish1.5-notebooks)
 
