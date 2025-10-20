@@ -5,7 +5,7 @@ permalink: /navigation-proofreading/
 position: 2
 ---
 
-Navigation and proofreading are done in Neuroglancer (most recent Spelunker branch). The dataset is accessible [here](https://spelunker.cave-explorer.org/#!middleauth+https://global.daf-apis.com/nglstate/api/v1/5397500134424576). 
+Navigation and proofreading are done in Neuroglancer (most recent Spelunker branch). The dataset is accessible [here](https://spelunker.cave-explorer.org/#!middleauth+https://global.daf-apis.com/nglstate/api/v1/4763857611390976). 
 
 ## Registering To Navigate and Proofread with CAVE
 
@@ -28,14 +28,14 @@ Navigation and proofreading are done in Neuroglancer (most recent Spelunker bran
 
 Rendering options for each layer can be modified by right clicking on the layer tab. This will open a panel to the right of the screen. 
 - `1. img` corresponds to the EM images  
-- `2. em_downsampled` corresponds to the EM images downsampled at 512 × 512 × 480 nm for faster browsing. This layer also helps when overlaying the two-photon imaging stacks (see below). 
-- `3. seg` corresponds to the EM segmentation     
-- `4. elavl3:H2B-GCaMP7f` is a registered two-photon imaging stack of the nuclear calcium indicator GCaMP7f under the elavl3 promoter.  
-- `5. gad1b:DsRed, kdrl:mCherryCAAX` is a registered two-photon imaging stack of red fluorescent reporters that label the main inhibitory neuronal subtype (gad1b:DsRed) and vascular endothelial cells (kdrl:mCherryCAAX). 
+- `2. seg` corresponds to the EM segmentation     
+- `3. em_downsampled` corresponds to the EM images downsampled at 512 × 512 × 480 nm for faster browsing. This layer also helps when overlaying the two-photon imaging stacks (see below). 
+- `4. tg_huc_h2b_gcamp7f` is a registered two-photon imaging stack of the nuclear calcium indicator GCaMP7f under the elavl3 promoter.  
+- `5. tg_gad1b-dsred_kdlr-mcherry-caax` is a registered two-photon imaging stack of red fluorescent reporters that label the main inhibitory neuronal subtype (gad1b:DsRed) and vascular endothelial cells (kdrl:mCherryCAAX). 
 - `6. functional masks` Functional masks are spatial masks registered from the two-photon functional imaging planes. Each mask corresponds to a unique neuronal ID, which can be used to retrieve activity data via custom Jupyter Notebooks (see the [Tutorials](https://jboulanger91.github.io/fish1.5-release/tutorials/) page). Mask IDs can be accessed by clicking on a mask and checking the Seg. tab in the right panel, or simply by hovering over a mask — the ID will appear directly in the functional masks layer tab. In the link above the neuron with ID 9978 is displayed. 
-- `7. ot hb region outlines` are outlines of the main regions in this dataset: opti tectum (periventricular zone and neuropil) and hindbrain. 
-- `8. synapses` describes how to render imagery. 
-- `9. ann` is a manual annotation layer, allowing the user to add annotations to the data (`Ctrl + Click`, either in the 2D or 3D panel). You need to right click on the layers tab to add annotations. 
+- `7. synapses` describes how to render imagery. 
+- `8-11. MECE0_3` are masks of the MECE (mutually exclusive collectively exhaustive) regions at multiple precision levels. Right clik on the layer to visualize the regions available. 
+- `12. ann` is a manual annotation layer, allowing the user to add annotations to the data (`Ctrl + Click`, either in the 2D or 3D panel). You need to right click on the layer tab to add annotations. 
 
 ## Making Proofreading Edits
 
