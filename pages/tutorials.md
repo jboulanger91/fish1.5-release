@@ -36,8 +36,7 @@ pip install caveclient
 ## Retrieve Neuronal Activity
 
 - This part does **not** require CAVE setup.
-- The Fish1.5 calcium imaging dataset is available on Zenodo:  
-  [Zenodo DOI](https://doi.org/10.5281/zenodo.16893093)
+- The Fish1.5 calcium imaging dataset is available on Zenodo: [Zenodo DOI](https://doi.org/10.5281/zenodo.16893093)
 - Use the following notebook to explore functional responses to random dots and sine gratings:
 
 [functional_responses.ipynb](https://nbviewer.org/url/rawcdn.githack.com/jboulanger91/fish1.5-notebooks/main/notebooks/functional_responses.ipynb)
@@ -57,5 +56,5 @@ conda activate fish-env
 
 All necessary dependencies are included in the `environment.yml` file.
 
-GitHub repository:  
-https://github.com/jboulanger91/fish1.5-notebooks
+GitHub repository: [https://github.com/jboulanger91/fish1.5-notebooks]https://github.com/jboulanger91/fish1.5-notebooks
+
