@@ -39,7 +39,7 @@ Rendering options for each layer can be modified by right clicking on the layer 
 
 ## Making Proofreading Edits
 
-Proofreading in the Fish1.5 dataset is done in the same navigation link as above. Make edits only when confident—they’ll improve segmentation, you are contributing to a commuunity effort. To get started here’s a quick guide on editing within Neuroglancer:
+Proofreading in the Fish1.5 dataset is done in the same navigation link as above. Make edits only when confident—they’ll improve segmentation, you are contributing to a community effort. To get started here’s a quick guide on editing within Neuroglancer:
 
 1. **Merging two segments (Correct Split Errors)**  
 The link above has shortcuts for merge and cut operations already defined.
